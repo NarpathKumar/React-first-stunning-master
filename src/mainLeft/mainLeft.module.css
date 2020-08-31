@@ -1,0 +1,22 @@
+.mainleft{
+    width: 50%;
+    box-sizing: border-box;
+}
+.leftSideMoboImage{
+    width: 80%;
+    height: 450px;
+    margin: 100px 0px 0px 0px;
+    display: none;
+}
+
+@media(max-width: 600px){
+    .mainleft{
+        width: 100%;
+        padding: 0px 0px 0px 20px;
+    }
+    .leftSideMoboImage{
+       display: block;
+        height: 350px;
+        margin-top: 50px;
+    }
+}
